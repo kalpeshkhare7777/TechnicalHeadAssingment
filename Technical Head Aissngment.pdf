@@ -1,0 +1,45 @@
+Technical Head Assignment
+
+Problem 1: Flutter Sportsapp
+You need to create a Flutter project named "Sports App" and
+develop 2-3 landing pages, including a profile page, home page, contact
+us page, and sports page.
+Logo : Logo.png
+Mandatory Things:
+1. Build an APK file for download on Android mobile devices. The
+downloaded app should be named "Sports App" and use the provided
+logo.
+2. Upon opening the app, there should be a sliding window containing an
+introduction to the app followed by a simple login view. Authentication is
+not required; instead, create a simple button for guest login to access
+the app.
+3. Ideate and create a home page.
+Other Things you can do:
+1. Build some more pages
+2. Use Rapid API to fetch apis in app - Rapid Api
+
+Problem 2:
+Investigate the steps required to publish an application on both the
+Google Play Store and Apple's App Store, as well as the iOS build process.
+Additionally, explore methods for integrating a feature into a Flutter
+application that allows users to share posts to their Instagram Stories with
+customization options.
+For example, like in the Spotify app. We want to
+share similar event posters.
+
+
+Problem 3 Backend Task:
+Research about aws s3 bucket and how will you use s3 bucket for
+storing images and any files in node js
+
+Submission Guidelines:
+Submit one DOC file which includes the GitHub repository link for
+problem 1. (In the repository, include all files of the Flutter project, and also
+include the APK file.) In the same DOC file, include the answers for problem 2
+and problem 3, along with the resources that you used.
+
+
+For Any Query Contact:
+Kavan Vavadiya,
+Institute Sports Technical Head
+
