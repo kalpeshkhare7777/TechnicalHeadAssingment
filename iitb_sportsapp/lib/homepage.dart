@@ -1,5 +1,9 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
+import 'package:iitb_sportsapp/Rapid.dart';
+import 'package:iitb_sportsapp/backend%20test/create.dart';
+import 'package:iitb_sportsapp/backend%20test/node.dart';
+import 'package:iitb_sportsapp/backend%20test/signinpage.dart';
 import 'package:iitb_sportsapp/contact_us.dart';
 import 'package:iitb_sportsapp/profilepage.dart';
 import 'package:iitb_sportsapp/sports/atheletics.dart';
@@ -239,7 +243,12 @@ const SizedBox(height: 10),
                 TablerIcons.ball_football,
                 size: 30,
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SignInPage()),
+                );
+              },
             ),
           ),
           Container(
@@ -254,7 +263,10 @@ const SizedBox(height: 10),
                 TablerIcons.player_play,
                 size: 30, // Adjust icon size as needed
               ),
-              onPressed: () {},
+              onPressed: () {Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => RapidPage()),
+      );},
             ),
           ),
           Container(
@@ -269,7 +281,13 @@ const SizedBox(height: 10),
                 TablerIcons.messages,
                 size: 30, // Adjust icon size as needed
               ),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => CreatePage()),
+      );
+                
+              },
             ),
           ),
           Container(
